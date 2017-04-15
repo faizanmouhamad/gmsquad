@@ -4,33 +4,20 @@
        <meta charset="UTF-8"/> 
        <title>GM Squad Accueil</title> 
       <link href="style.css" rel="stylesheet" media="all" type="text/css">
-<style>
-.w3-content{max-width:980px;margin:auto;}
-.w3-display-container{position:relative}
-.w3-display-container:hover .w3-display-hover{display:block}.w3-display-container:hover span.w3-display-hover{display:inline-block}.w3-display-hover{display:none}
-.w3-button{border:none;display:inline-block;outline:0;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
-.w3-button:disabled{cursor:not-allowed;opacity:0.3}.w3-disabled *,:disabled *{pointer-events:none}
-.w3-button,.w3-bar-block .w3-dropdown-click .w3-button{width:100%;text-align:left;padding:8px 16px}
-.w3-button{white-space:normal}
-.w3-black,.w3-hover-black:hover{color:#fff!important;background-color:#000!important}
-.w3-display-left{position:absolute;top:50%;left:0%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%);width:50px}
-.w3-display-right{position:absolute;top:50%;right:0%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%);width:50px}
-  .w3-animate-fading{animation:fading 9s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
-      </style>
    </head>
    <body>
      <table class="tabi">
   <tr>
-    <th><a href="https://www.facebook.com/GMSQUADCOMPANY/?fref=ts" target="_blank"><img alt="logo1" id="logobi" src="/images/logo1.png" /></a> </th>
+    <th><a href="https://www.facebook.com/GMSQUADCOMPANY/?fref=ts" target="_blank"><img alt="logo1" class="logobi" src="/images/logo1.png" /></a> </th>
   </tr>
   <tr>
-     <th><a href="https://www.instagram.com/gmsquadcompany/" target="_blank"><img id="logobi" src="/images/logo2.png" alt="logogo"/></a></th>
+     <th><a href="https://www.instagram.com/gmsquadcompany/" target="_blank"><img class="logobi" src="/images/logo2.png" alt="logogo"/></a></th>
   </tr>
   <tr>
-    <th><a href="mailto:manonperotcovi@gmail.com" target="_blank"><img id="logobi" src="/images/logo3.png" alt="logogo"/></a></th>
+    <th><a href="mailto:manonperotcovi@gmail.com" target="_blank"><img class="logobi" src="/images/logo3.png" alt="logogo"/></a></th>
   </tr>
         <tr>
-          <th> <a href="https://www.youtube.com/channel/UCaroI3Wa_Lj89eAXG2CDeKA/feed" target="_blank"><img id="logobi" src="/images/logo4.png"/></a></th>
+          <th> <a href="https://www.youtube.com/channel/UCaroI3Wa_Lj89eAXG2CDeKA/feed" target="_blank"><img alt="logoga" class="logobi" src="/images/logo4.png"/></a></th>
   </tr>
 </table>
      <img id="logo" src="/images/GM-Squad.png" alt="logo1">
@@ -52,7 +39,7 @@
    
      <aside class="barre">
      <ul id="barre">  
-       <li id="actu"><iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FGMSQUADCOMPANY%2F&tabs=timeline&width=200&height=310&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="200" height="310" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe></li>
+       <li id="actu"><iframe class="fbwidget" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FGMSQUADCOMPANY%2F&tabs=timeline&width=200&height=310&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="200" height="310" ></iframe></li>
        <li><h3>Contacts :</h3></li>
        <li><h4>PEROT COVI Manon</h4></li>
        <li><h4>manonperotcovi@gmail.com</h4></li>
@@ -92,13 +79,13 @@
       
        
        
-       <div class="w3-content w3-display-container">
-<img class="mySlides w3-animate-fading" src="./images/fond.jpg" style="width:100%"/>         
-  <img class="mySlides w3-animate-fading" src="./images/shoot/IMG_5911.jpg" style="width:100%"/>
-  <img class="mySlides w3-animate-fading" src="./images/shoot/IMG_6140.jpg" style="width:100%"/>
-  <img class="mySlides w3-animate-fading" src="./images/shoot/IMG_6151.jpg" style="width:100%"/>
-  <img class="mySlides w3-animate-fading" src="./images/shoot/IMG_6155.jpg" style="width:100%"/>
-  <img class="mySlides w3-animate-fading" src="./images/shoot/IMG_6170.jpg" style="width:100%"/>
+       <div class="w3-content w3-display-container" id="bazard">
+<img class="mySlides w3-animate-fading" src="./images/fond.jpg" alt="zaza"/>         
+  <img class="mySlides w3-animate-fading" src="./images/shoot/IMG_5911.jpg" alt="zaza"/>
+  <img class="mySlides w3-animate-fading" src="./images/shoot/IMG_6140.jpg" alt="zaza"/>
+  <img class="mySlides w3-animate-fading" src="./images/shoot/IMG_6151.jpg" alt="zaza"/>
+  <img class="mySlides w3-animate-fading" src="./images/shoot/IMG_6155.jpg" alt="zaza"/>
+  <img class="mySlides w3-animate-fading" src="./images/shoot/IMG_6170.jpg" alt="zaza"/>
 
          
   <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
@@ -148,7 +135,7 @@ function carousel() {
         <li class="title">Rejoignez nous !</li>
          <li>Pour nous rejoindre dans un de nos projets lors de la recherche d'acteurs ou d'équipe technique, vous pouvez nous contacter via nos réseaux sociaux, attention une seule régle pour survivre : Never talk about us...</li>
        </ul>
-       <img id="join" src="/images/Join us.png" alt="join">
+       <img id="join" src="./images/Join_us.png" alt="join">
        <p id="merci">Un grand remerciement de la part de toute l'équipe à Manon pour tout ton travail acharné ainsi que de nous donner à chacun cette opportunité !<br>Merci Manon !</p>
      </article>
      <a href="https://gmsquad-gmsquadcompany998039.codeanyapp.com/Accueil.html"><img id="fleche" src="/images/fleche.png" alt="fleche"></a>
