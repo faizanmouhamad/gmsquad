@@ -349,18 +349,18 @@ border-radius:5px;
 /* partie menu */
 .bodymenu{
   margin: auto; 
-  width: 1205px;
+  width: 1200px; /* 99% */
   padding:0;
   color: white;
   font-family: 'Helvetica';
   font-size:160%;
-  background-image: url(./images/backa.png);
+  background-image: url(./images/backa.png); 
 }
-  #gm{
+#gm{
     float:left;
     font-size:85px;
     letter-spacing:-7px;
-    margin-left: 228px;
+    margin-left: 165px;
     margin-top: 200px;
     color:#d12026;
   }
@@ -369,22 +369,22 @@ border-radius:5px;
     font-size:85px;
     letter-spacing:-7px;
     margin-top: 280px;
-    margin-right: 160px;
+    margin-right: 235px;
   }  
   #zi{
     float: right;
-margin-right: -110px;
+margin-right: -140px;
 margin-top: 55px;
   }
   #za{
     float: right;
 margin-top: 110px;
-margin-right: -99px;
+margin-right: -117px;
   }
   #zo{
     float: right;
 margin-top: 165px;
-margin-right: -112px;
+margin-right: -136px;
   }
 #iz, #oz{
 text-decoration:none;
@@ -393,8 +393,8 @@ color:white;
 
 #zq, #sq, #dq{
 color:#00ffe4;
-float:right;
-margin-right:-24px;
+/* float:right;
+margin-right:-24px; */
 }
   .infobulle {
 color: white;
@@ -414,4 +414,18 @@ width:auto;
   font-size:18px;  
     color:white;
   }
- 
+.logobv {
+  width: 30px;
+  height: 30px;
+  display: center;
+  opacity:0;
+}
+
+
+@media(max-width: 1100px){
+  
+  .logobv {
+    opacity:1;
+  } 
+  
+}
