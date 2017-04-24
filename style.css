@@ -1,6 +1,7 @@
 body {
   background-color:black;
-  margin: auto; 
+  margin: auto;
+  display:block;
  width: 1100px;
 }
 .logobi{
@@ -311,14 +312,48 @@ height:150px;
   padding-top: 5px;
   
 }
+#interv {
+   width:106px;
+height:150px;
+  float: left;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+#interview {
+    border: 1px solid #530000;
+  height: 160px;
+  background-color: #530000;
+}
+#interview p{
+  text-align:left;
+  margin-left: 125px;
+}
+#bandec {
+   width:106px;
+height:150px;
+  float: left;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+#Bande {
+   margin-top:13px;
+  border: 1px solid #530000;
+  height: 160px;
+  background-color: #530000;
+}
+#Bande p {
+   text-align:left;
+  margin-left: 125px;
+}
 #avantp  {
-  
+   margin-top:13px;
   border: 1px solid #530000;
   height: 160px;
   background-color: #530000;
 }
 
 #avantp p{
+  
   text-align:left;
   margin-left: 125px;
 }
@@ -332,7 +367,7 @@ height:150px;
   text-align:left;
   margin-left: 125px;
 }
-#aff:hover, #espacep:hover{
+#aff:hover, #espacep:hover, #bandec:hover, #interv:hover{
   transform:scale(1.2);
 }
 
